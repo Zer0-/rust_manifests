@@ -1,0 +1,5440 @@
+{
+  "date": "2017-04-27", 
+  "manifest-version": "2", 
+  "pkg": {
+    "cargo": {
+      "version": "0.18.0 (fe7b0cdcf 2017-04-24)", 
+      "target": {
+        "i686-apple-darwin": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/cargo-0.18.0-i686-apple-darwin.tar.gz", 
+          "hash": "4224f6c5ded2b1fe9bac299d3729fcc134a71936525c38f1988af766b2802f91"
+        }, 
+        "aarch64-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/cargo-0.18.0-aarch64-unknown-linux-gnu.tar.gz", 
+          "hash": "4ed71b6d89359db8fba738039f8ba201542240c7396d9599fc3d51f49727ca36"
+        }, 
+        "x86_64-unknown-netbsd": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/cargo-0.18.0-x86_64-unknown-netbsd.tar.gz", 
+          "hash": "9190224b6ba47619061b6a340f6556f2b6392254503e3c22780d6abc3c73eef4"
+        }, 
+        "powerpc-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/cargo-0.18.0-powerpc-unknown-linux-gnu.tar.gz", 
+          "hash": "2ff7c2ed65617e7d56fd63c28f937126f1899a0e23667cbe80f27473bd7230e0"
+        }, 
+        "mips64-unknown-linux-gnuabi64": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/cargo-0.18.0-mips64-unknown-linux-gnuabi64.tar.gz", 
+          "hash": "07764ced910c6bb030adee3d7e99c24066b680436cde49491a59cb7a3cdc9a37"
+        }, 
+        "arm-unknown-linux-gnueabihf": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/cargo-0.18.0-arm-unknown-linux-gnueabihf.tar.gz", 
+          "hash": "ef9dea311cf963449994100a7608895611f89ab62b421b6cfa7f8ec9c2ad7f66"
+        }, 
+        "x86_64-apple-darwin": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/cargo-0.18.0-x86_64-apple-darwin.tar.gz", 
+          "hash": "e5c69ed75f73cfcff0498a06da1017acaa190d912e0fe5e432b1439e4c0d4110"
+        }, 
+        "i686-pc-windows-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/cargo-0.18.0-i686-pc-windows-gnu.tar.gz", 
+          "hash": "eb9d902ea4baf7c1785204ca5e3592869f38b3f325b91762e654ce2121513abc"
+        }, 
+        "arm-unknown-linux-gnueabi": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/cargo-0.18.0-arm-unknown-linux-gnueabi.tar.gz", 
+          "hash": "8f5016105e4762401d10525fb0085601eaf36008b4c51570f54ee3205698b3d3"
+        }, 
+        "i686-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/cargo-0.18.0-i686-unknown-linux-gnu.tar.gz", 
+          "hash": "fbc5a0614345dfb2b41e133bd821257906a839753a9aa4c4590cc9d658164e58"
+        }, 
+        "i686-pc-windows-msvc": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/cargo-0.18.0-i686-pc-windows-msvc.tar.gz", 
+          "hash": "61be33fba4ed1e36d09a1a445d37bde16ea9077851b9d15a996c69c99475e416"
+        }, 
+        "x86_64-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/cargo-0.18.0-x86_64-unknown-linux-gnu.tar.gz", 
+          "hash": "3601e95c968850230b137b849ff08a507e50d77ab584c779143a100f1843d8dd"
+        }, 
+        "mipsel-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/cargo-0.18.0-mipsel-unknown-linux-gnu.tar.gz", 
+          "hash": "adc86588879ca4776a16db1cf6819dc08c9b16ff4ab3c17738f8ca869d3c2d63"
+        }, 
+        "x86_64-pc-windows-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/cargo-0.18.0-x86_64-pc-windows-gnu.tar.gz", 
+          "hash": "ff5c3f33e8eb7b201a973c0eb836abc57915fc93a424a114cc0a1b665a984a6c"
+        }, 
+        "mips64el-unknown-linux-gnuabi64": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/cargo-0.18.0-mips64el-unknown-linux-gnuabi64.tar.gz", 
+          "hash": "238f16dcd6755add3306bfc10b7878713a7f17e84301ff0b7eb96ea960e3b241"
+        }, 
+        "armv7-unknown-linux-gnueabihf": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/cargo-0.18.0-armv7-unknown-linux-gnueabihf.tar.gz", 
+          "hash": "91abd44766a5169f5391c607b64fb47aca822ecfa953559a36d041b01ae3aeaa"
+        }, 
+        "s390x-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/cargo-0.18.0-s390x-unknown-linux-gnu.tar.gz", 
+          "hash": "8de0b700e766e574e855d5f90fc4da37a4939caf71b2c28bd30cf70a8750b20c"
+        }, 
+        "powerpc64-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/cargo-0.18.0-powerpc64-unknown-linux-gnu.tar.gz", 
+          "hash": "15e79c1e1a9b7e620fe3d88d3b2e5429c8a95b025b2b03a5de4a1d71956fe648"
+        }, 
+        "x86_64-pc-windows-msvc": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/cargo-0.18.0-x86_64-pc-windows-msvc.tar.gz", 
+          "hash": "9c27b38400472cc896f6aeb462961bc4418cb2d93cc9a99872d34b9fa24480a3"
+        }, 
+        "powerpc64le-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/cargo-0.18.0-powerpc64le-unknown-linux-gnu.tar.gz", 
+          "hash": "a5586f28298f88614023534d290525e45e31633450672b33197a92ac36459994"
+        }, 
+        "x86_64-unknown-freebsd": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/cargo-0.18.0-x86_64-unknown-freebsd.tar.gz", 
+          "hash": "171147f876c08cf82a6da60fabf737fd580df90e2fec9c57368642beaea67450"
+        }, 
+        "mips-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/cargo-0.18.0-mips-unknown-linux-gnu.tar.gz", 
+          "hash": "3905f20f380da5d6bf142c2caef729a6f8fa873179ff998c335326eabc119bc3"
+        }
+      }
+    }, 
+    "rust-std": {
+      "version": "1.17.0 (56124baa9 2017-04-24)", 
+      "target": {
+        "x86_64-unknown-fuchsia": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-x86_64-unknown-fuchsia.tar.gz", 
+          "hash": "773fa289b529d018cee18c593a4ecec23ff07978dd92e0b955f7a909e52f3d0a"
+        }, 
+        "asmjs-unknown-emscripten": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-asmjs-unknown-emscripten.tar.gz", 
+          "hash": "745fb8016e0744d4a947f93ffcd4ef81811d69178b7324c53cdd6a655c4810dc"
+        }, 
+        "i686-apple-darwin": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-i686-apple-darwin.tar.gz", 
+          "hash": "3059f7cfabbd2c22c3f28a4d9e4b6b81bfab0d71fa6109e83067c1bbf1877b33"
+        }, 
+        "i686-unknown-freebsd": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-i686-unknown-freebsd.tar.gz", 
+          "hash": "51304792a00ce0009be97f802511df0bd18abae3892ddc3f3828fa60e94996ff"
+        }, 
+        "aarch64-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-aarch64-unknown-linux-gnu.tar.gz", 
+          "hash": "59d3de61544d7400a261a88ca243394eb0c29dd7c1c68eeee392b9d5913ca465"
+        }, 
+        "x86_64-unknown-netbsd": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-x86_64-unknown-netbsd.tar.gz", 
+          "hash": "5395d016fad94215207625e30e00f17731dc2222c350629d113df0b17da90ccc"
+        }, 
+        "mipsel-unknown-linux-musl": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-mipsel-unknown-linux-musl.tar.gz", 
+          "hash": "edc7fbe2b9215ceccd428c1f9a1e5b10feadb23abb225d13eef2947b57f42882"
+        }, 
+        "powerpc-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-powerpc-unknown-linux-gnu.tar.gz", 
+          "hash": "56d9d6e68653089b0933ef87ddb4332d16d4fcd3a25e0a3a891bbd773f4a6126"
+        }, 
+        "i386-apple-ios": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-i386-apple-ios.tar.gz", 
+          "hash": "8ec0d53c10a493da04baa09a005d29a2d30f98aee7ecabcaa7445ece09e1523e"
+        }, 
+        "x86_64-rumprun-netbsd": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-x86_64-rumprun-netbsd.tar.gz", 
+          "hash": "7f48de696d221d578596b121f0f12c492156f772e6425f3faa2356938310cbe3"
+        }, 
+        "mips64-unknown-linux-gnuabi64": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-mips64-unknown-linux-gnuabi64.tar.gz", 
+          "hash": "c3b5f7a362fe333d9b4c15ce16b41e4e4841c59125104b149b4277d8a71456e9"
+        }, 
+        "arm-unknown-linux-gnueabihf": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-arm-unknown-linux-gnueabihf.tar.gz", 
+          "hash": "0de6c59ae460123ceeab5b941185fbc4ccde60afc698647428950a17a16c6456"
+        }, 
+        "x86_64-apple-darwin": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-x86_64-apple-darwin.tar.gz", 
+          "hash": "48b81a73f4789303113e2f39a6709052887f94c24e01efe7def37c35902ddb63"
+        }, 
+        "i686-linux-android": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-i686-linux-android.tar.gz", 
+          "hash": "0a12cae62fdc729ae22048018792c4e1c3c58993e9d706822d06fe2b874e0621"
+        }, 
+        "i686-pc-windows-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-i686-pc-windows-gnu.tar.gz", 
+          "hash": "954bc7a59849e17f576473e0ce6b529155f3c4d2655ccfcc9484ab1784fb2001"
+        }, 
+        "arm-linux-androideabi": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-arm-linux-androideabi.tar.gz", 
+          "hash": "c0778a4bb133a15c9ee3359110d6310848f7d042ac5ef615a6262b2d8aee1989"
+        }, 
+        "arm-unknown-linux-gnueabi": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-arm-unknown-linux-gnueabi.tar.gz", 
+          "hash": "2b7dc5b69985b5fdb7fd4c8366b087c9fde18fcbba0fcde4a33f522895861bb1"
+        }, 
+        "i686-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-i686-unknown-linux-gnu.tar.gz", 
+          "hash": "3dbaa44a07b14e5af05633c5f1a7d6b0538c6f8fa404ee6d3f85714d4f2bf39b"
+        }, 
+        "arm-unknown-linux-musleabi": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-arm-unknown-linux-musleabi.tar.gz", 
+          "hash": "c4d5eb217ab251764369595c1825f6711ff6ea2ebae35e14a771d81af81c49b4"
+        }, 
+        "armv7-apple-ios": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-armv7-apple-ios.tar.gz", 
+          "hash": "4d289eff5fa1454fd367abe7ce0892257b4f8f26cafab31f638629820f2c2773"
+        }, 
+        "i686-pc-windows-msvc": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-i686-pc-windows-msvc.tar.gz", 
+          "hash": "bb5d1b06611b31460852cc13eedb4231a1d3fba03affb3b41899651ca5970eb7"
+        }, 
+        "i586-pc-windows-msvc": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-i586-pc-windows-msvc.tar.gz", 
+          "hash": "82afc1a45546d40d04ae99be753a46f1e8fb975a65c4ba04d72115101f21eeae"
+        }, 
+        "x86_64-unknown-linux-musl": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-x86_64-unknown-linux-musl.tar.gz", 
+          "hash": "b2816609399d2446be6462c58de85da9ecdf4158e0934c5a16d44c40efda0135"
+        }, 
+        "arm-unknown-linux-musleabihf": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-arm-unknown-linux-musleabihf.tar.gz", 
+          "hash": "656f58e617aa3d95b579055679b766731691f123f87594d5d92d82182181dc14"
+        }, 
+        "x86_64-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-x86_64-unknown-linux-gnu.tar.gz", 
+          "hash": "2902bb0da78208f441f1d983aeafcad01ea653d2e062a8192892868e2b41130d"
+        }, 
+        "i586-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-i586-unknown-linux-gnu.tar.gz", 
+          "hash": "353f3dc94dfc4b4cb5311ca9529f24efbe3d95a2b0d3b1df24d118e7d9059c63"
+        }, 
+        "armv7s-apple-ios": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-armv7s-apple-ios.tar.gz", 
+          "hash": "b1c5d25953660c8ad376a7a8abefe815a5cf821a64d5f0563e3b22cc6492d279"
+        }, 
+        "sparc64-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-sparc64-unknown-linux-gnu.tar.gz", 
+          "hash": "fc38e39baa41b8b3a6fd4fdc9051ac4e596c383e24c8d9340771c946b7c71cf9"
+        }, 
+        "mipsel-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-mipsel-unknown-linux-gnu.tar.gz", 
+          "hash": "04247eba8a5489cc4847ad552dc82be1d931b293e98b4176b0556c744028a361"
+        }, 
+        "wasm32-unknown-emscripten": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-wasm32-unknown-emscripten.tar.gz", 
+          "hash": "b235468c9a97d89e55ce11616c7805f2b4ee01ff07857460e593278cc0700fb8"
+        }, 
+        "aarch64-linux-android": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-aarch64-linux-android.tar.gz", 
+          "hash": "e04c212646308c4dde69d791cd0b7ab0e6e586c81802a8b710adc8a4ba1aaf69"
+        }, 
+        "mips64el-unknown-linux-gnuabi64": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-mips64el-unknown-linux-gnuabi64.tar.gz", 
+          "hash": "bd4f8e9951a4085789df13c0e92efa3061de4c22839bc28ae286e1ac340e369e"
+        }, 
+        "armv7-unknown-linux-gnueabihf": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-armv7-unknown-linux-gnueabihf.tar.gz", 
+          "hash": "21710f52ebc6d801b47e31826454d20aa99288b10eb68fcab9fc5b3808e38c1f"
+        }, 
+        "s390x-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-s390x-unknown-linux-gnu.tar.gz", 
+          "hash": "847609375cad16957ea37e0986afb823eabe6e67bbc29b685f54bf12cafa1d96"
+        }, 
+        "mips-unknown-linux-musl": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-mips-unknown-linux-musl.tar.gz", 
+          "hash": "720abce5957fecc2571720ca29f110df6ab59aa9d493c6852b24d48b6caa787c"
+        }, 
+        "powerpc64-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-powerpc64-unknown-linux-gnu.tar.gz", 
+          "hash": "74c2c06a43976b16d55b815863a9a926f045ef7391f5bc19ac7a9f4e361f1660"
+        }, 
+        "x86_64-pc-windows-msvc": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-x86_64-pc-windows-msvc.tar.gz", 
+          "hash": "cce529f7c58c410753205ac40db265fa994aa9a356a3d085bac4a2ace235fa0a"
+        }, 
+        "powerpc64le-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-powerpc64le-unknown-linux-gnu.tar.gz", 
+          "hash": "fb928871afe7c83d91ec073274193baff4b5c0a031883e647f6b11666ac96cfd"
+        }, 
+        "x86_64-unknown-freebsd": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-x86_64-unknown-freebsd.tar.gz", 
+          "hash": "2ddbd37c51b9d6496448393ccf1940f3dd8f44720205f869cf98e151b4faeafe"
+        }, 
+        "i686-unknown-linux-musl": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-i686-unknown-linux-musl.tar.gz", 
+          "hash": "94c776b89dfd477cc1feb098b8621579e803f460e522ac8888c4a580c473843f"
+        }, 
+        "x86_64-apple-ios": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-x86_64-apple-ios.tar.gz", 
+          "hash": "775e10e382db820f68efd1147a95e04207d12d70b62cc8cdf7525febd6cef215"
+        }, 
+        "aarch64-apple-ios": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-aarch64-apple-ios.tar.gz", 
+          "hash": "bb0df7ea8b327b0bce5a4de0ef2671b68ed83a967ec635fe01249a3205ab7681"
+        }, 
+        "mips-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-mips-unknown-linux-gnu.tar.gz", 
+          "hash": "84362074bd85c34ab5fa29e2684a79c63b81f122d3822e66657db87f8f668af4"
+        }, 
+        "armv7-linux-androideabi": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-armv7-linux-androideabi.tar.gz", 
+          "hash": "7425d131a88e3bc3a8dacbd6de25afff25738451bdc9a62ed4e4fb6d357008eb"
+        }, 
+        "aarch64-unknown-fuchsia": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-aarch64-unknown-fuchsia.tar.gz", 
+          "hash": "29a400ee177b221948f82a998df167c3899c475009a74628ec7721416b73cbc9"
+        }, 
+        "armv7-unknown-linux-musleabihf": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-armv7-unknown-linux-musleabihf.tar.gz", 
+          "hash": "f5f2b61e0265d9f9d520b614eb1243127b6845f5a28cfdce49477ada6fcf41c3"
+        }, 
+        "x86_64-pc-windows-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-std-1.17.0-x86_64-pc-windows-gnu.tar.gz", 
+          "hash": "38b09761d8cd37df8543c6c031269f818b38164731602a08189458e8352a725f"
+        }
+      }
+    }, 
+    "rustc": {
+      "version": "1.17.0 (56124baa9 2017-04-24)", 
+      "target": {
+        "i686-apple-darwin": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rustc-1.17.0-i686-apple-darwin.tar.gz", 
+          "hash": "2edc2cac9962296fcd0e0b7707fbc87d65d75e75858f309394b6ca8fbeeaaabd"
+        }, 
+        "aarch64-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rustc-1.17.0-aarch64-unknown-linux-gnu.tar.gz", 
+          "hash": "9fc2c46fa5e5d2c6b3651b2f10fa259b5f863c204625ee981b0896139b24d045"
+        }, 
+        "x86_64-unknown-netbsd": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rustc-1.17.0-x86_64-unknown-netbsd.tar.gz", 
+          "hash": "7acd5680bf3a65b21ed2559b4a3ded4e618dd643f8b8b156f55ef022737ea779"
+        }, 
+        "powerpc-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rustc-1.17.0-powerpc-unknown-linux-gnu.tar.gz", 
+          "hash": "f39430295836fbecd36e968772c5cb9cc1bb76d15737b4a612f224f75f8ad527"
+        }, 
+        "mips64-unknown-linux-gnuabi64": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rustc-1.17.0-mips64-unknown-linux-gnuabi64.tar.gz", 
+          "hash": "b6cb5804c04f21d16230bab8f1d8dcf2ec03f9e08748f92bfdd75b56e2abaf2f"
+        }, 
+        "arm-unknown-linux-gnueabihf": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rustc-1.17.0-arm-unknown-linux-gnueabihf.tar.gz", 
+          "hash": "1bf230db5c5714a8884c7386aa0c0633e2eda0f0b6d908aab11f654eb033edb8"
+        }, 
+        "x86_64-apple-darwin": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rustc-1.17.0-x86_64-apple-darwin.tar.gz", 
+          "hash": "32318bb18b8aa0b63a120d12dea7f7161b777b4aaeef058665c18322173462f0"
+        }, 
+        "i686-pc-windows-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rustc-1.17.0-i686-pc-windows-gnu.tar.gz", 
+          "hash": "ebe5415216bb36bd692386103dded158ead5a36d4b1a41cea946e619fca00cd9"
+        }, 
+        "arm-unknown-linux-gnueabi": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rustc-1.17.0-arm-unknown-linux-gnueabi.tar.gz", 
+          "hash": "900da55d125741aaa477f8bf5c44f85865747465d2f42c84c9fce215e65cf1eb"
+        }, 
+        "i686-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rustc-1.17.0-i686-unknown-linux-gnu.tar.gz", 
+          "hash": "9d3e3ff343f22b5288676b40d6749ebeabea863fa9e6009fbc5a018ede83c57c"
+        }, 
+        "i686-pc-windows-msvc": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rustc-1.17.0-i686-pc-windows-msvc.tar.gz", 
+          "hash": "aedce4dba53d509c04073f9e2fa57b2d217dc040fb78301d3533edaa7e54ac89"
+        }, 
+        "x86_64-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rustc-1.17.0-x86_64-unknown-linux-gnu.tar.gz", 
+          "hash": "3eebd92512040baf3c0974c3ce61859646d8cf422cc515d724d857577da0dbd5"
+        }, 
+        "mipsel-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rustc-1.17.0-mipsel-unknown-linux-gnu.tar.gz", 
+          "hash": "ef5e4ae7b3aee99a86c1e29dabd867e7689584a8a2c87bce59a2d5e0aee77e21"
+        }, 
+        "x86_64-pc-windows-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rustc-1.17.0-x86_64-pc-windows-gnu.tar.gz", 
+          "hash": "eedbecc4e4caed202b030c3121704815643874b1a5a28ea11feb02b4bbe96f61"
+        }, 
+        "mips64el-unknown-linux-gnuabi64": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rustc-1.17.0-mips64el-unknown-linux-gnuabi64.tar.gz", 
+          "hash": "b9fe5046e060ba22cf0264bbd8e1bf161a4a38d71b79753ae2f5914662aeb12d"
+        }, 
+        "armv7-unknown-linux-gnueabihf": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rustc-1.17.0-armv7-unknown-linux-gnueabihf.tar.gz", 
+          "hash": "eff4202833abc93de896cc3c0f0c0646c85bbddcde1b61a2954992a6ad8a6508"
+        }, 
+        "s390x-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rustc-1.17.0-s390x-unknown-linux-gnu.tar.gz", 
+          "hash": "563ee3dac705766fb7ae96fa19f045c311e3389f50b26fd32a4bced38978d1db"
+        }, 
+        "powerpc64-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rustc-1.17.0-powerpc64-unknown-linux-gnu.tar.gz", 
+          "hash": "bcbe435604461a36e9997f88114db0010a1d98e8957b2fa676903fb70eadf58e"
+        }, 
+        "x86_64-pc-windows-msvc": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rustc-1.17.0-x86_64-pc-windows-msvc.tar.gz", 
+          "hash": "e6318ef5051b82b2fe27350ac6c82f3fb439d787abc0d42f6e8de151a1e82c22"
+        }, 
+        "powerpc64le-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rustc-1.17.0-powerpc64le-unknown-linux-gnu.tar.gz", 
+          "hash": "1500b9db83c0c040a892c256f166154dfd0c7f29c5ca2a5fa2096f2d0ee30d12"
+        }, 
+        "x86_64-unknown-freebsd": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rustc-1.17.0-x86_64-unknown-freebsd.tar.gz", 
+          "hash": "7eb40cae153251596668a76ff8d4852a6d40249d8d0bc11dc8e15f58379c63e7"
+        }, 
+        "mips-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rustc-1.17.0-mips-unknown-linux-gnu.tar.gz", 
+          "hash": "5a9ed774bc377cc98b644e710f535fc0018d7fa20fe677bce9b2de881fdc1dcf"
+        }
+      }
+    }, 
+    "rust-docs": {
+      "version": "1.17.0 (56124baa9 2017-04-24)", 
+      "target": {
+        "x86_64-unknown-fuchsia": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-x86_64-unknown-fuchsia.tar.gz", 
+          "hash": "3f1b1ff24e95d3027a09fa956204092cca76772ac1eb9406d1e971e37d72a95f"
+        }, 
+        "asmjs-unknown-emscripten": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-asmjs-unknown-emscripten.tar.gz", 
+          "hash": "77424b06dfed59af6a6487ec698510c3d0685fefb80964766cd4091af2ceb75e"
+        }, 
+        "i686-apple-darwin": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-i686-apple-darwin.tar.gz", 
+          "hash": "c6db1581b4cefa4fb1a110bf0f49c1d59da39e7432569b64dc19a924805bc149"
+        }, 
+        "i686-unknown-freebsd": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-i686-unknown-freebsd.tar.gz", 
+          "hash": "bfc30e50652ccb980e71b2ea31ed935afdd41b9f1919eb5ee8656fdf3279dedb"
+        }, 
+        "aarch64-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-aarch64-unknown-linux-gnu.tar.gz", 
+          "hash": "df345f87803c7e940453f56f3824244454238ac701014c10dbf6ed51b7417545"
+        }, 
+        "x86_64-unknown-netbsd": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-x86_64-unknown-netbsd.tar.gz", 
+          "hash": "738201abc26830b29f2bbf49239b967c1b4d9528e006f1f875d95673c598ca28"
+        }, 
+        "mipsel-unknown-linux-musl": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-mipsel-unknown-linux-musl.tar.gz", 
+          "hash": "98610cce7a27d87cb8e8c0d037586a2e96fed515c3075d00c27c54fc10f24fc8"
+        }, 
+        "powerpc-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-powerpc-unknown-linux-gnu.tar.gz", 
+          "hash": "a8279016269bc6050b9b26bfef3975db94165baef44ad657afee1e0eba075206"
+        }, 
+        "i386-apple-ios": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-i386-apple-ios.tar.gz", 
+          "hash": "f7329de8af9f37acc7f59b77725334b9df78a3080c272cab8cb18226782e1646"
+        }, 
+        "x86_64-rumprun-netbsd": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-x86_64-rumprun-netbsd.tar.gz", 
+          "hash": "4877b2a67c6502ee58a211c2cbdaf06afcfd7e58d27ec234d4f8a99379b7c522"
+        }, 
+        "mips64-unknown-linux-gnuabi64": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-mips64-unknown-linux-gnuabi64.tar.gz", 
+          "hash": "7919eff686730083faf4e4e51d7e7f59483504236d0e120a724553e7d6a9c6e0"
+        }, 
+        "arm-unknown-linux-gnueabihf": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-arm-unknown-linux-gnueabihf.tar.gz", 
+          "hash": "d277cc74c363ef22016548ba23bfa7cd2071e89120f1aabb2433bc371ed0c7cc"
+        }, 
+        "x86_64-apple-darwin": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-x86_64-apple-darwin.tar.gz", 
+          "hash": "927be382010c4ac4781211bcc0b8a25cb4b2fd61911fef4dd7f94a7837d185c2"
+        }, 
+        "i686-linux-android": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-i686-linux-android.tar.gz", 
+          "hash": "93abb909ef8e67ba96d572faf46df40da9c55793d81ef8af6836368a5f4a2cb2"
+        }, 
+        "i686-pc-windows-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-i686-pc-windows-gnu.tar.gz", 
+          "hash": "76ee882babde7cbfa8db961084a67908790fbf2f2ca8019aa233d5176070bdcd"
+        }, 
+        "arm-linux-androideabi": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-arm-linux-androideabi.tar.gz", 
+          "hash": "459d490a4b6a18d32e569c76710ce95f0d8ebbab66c7f8547677242be38d5aed"
+        }, 
+        "arm-unknown-linux-gnueabi": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-arm-unknown-linux-gnueabi.tar.gz", 
+          "hash": "a775d37f10d168d77f4dacad7284c8afc436c746b1a0ee1cab919a02afc59a24"
+        }, 
+        "i686-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-i686-unknown-linux-gnu.tar.gz", 
+          "hash": "ae2b5dc6a661f0dbab2d78c5f5acba4b806c7dfa5da0cada4c0e1a7517f1f3e6"
+        }, 
+        "arm-unknown-linux-musleabi": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-arm-unknown-linux-musleabi.tar.gz", 
+          "hash": "ba96f672e04db011f2408cc964a145b402e7139a551da8bd84ee344bf9cf7994"
+        }, 
+        "armv7-apple-ios": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-armv7-apple-ios.tar.gz", 
+          "hash": "2f5a4d8a471fb0455f2a527b422dbbe50a06464fca20bdae4cc86f6983bc7d04"
+        }, 
+        "i686-pc-windows-msvc": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-i686-pc-windows-msvc.tar.gz", 
+          "hash": "2f1ef80cf3ab8ac71c95d6cc8554e1cc9019e4fee6776b343fc1351ba1ba6502"
+        }, 
+        "i586-pc-windows-msvc": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-i586-pc-windows-msvc.tar.gz", 
+          "hash": "7e665dfaed9cc36e4ab845a627a1291e9c97bde6322c44c36155466baa5d9a69"
+        }, 
+        "x86_64-unknown-linux-musl": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-x86_64-unknown-linux-musl.tar.gz", 
+          "hash": "c2514368f1959bff134c86fd2d501216dde256d8d5b5999fd7793724cd49779b"
+        }, 
+        "arm-unknown-linux-musleabihf": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-arm-unknown-linux-musleabihf.tar.gz", 
+          "hash": "618e7b36e73b57164c8bd4ed4fe8bf636dea274e2009b8938f8e6d71497bfbbb"
+        }, 
+        "x86_64-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-x86_64-unknown-linux-gnu.tar.gz", 
+          "hash": "47e647ee8b1cdd0416904df01dfea86cbd044432fe3b52dbc3ee837f8eaa0509"
+        }, 
+        "i586-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-i586-unknown-linux-gnu.tar.gz", 
+          "hash": "bbc5501ad19a7d5e66699d7598c4a92de38ebdfa21ab64b20218fcf9ba298b0b"
+        }, 
+        "armv7s-apple-ios": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-armv7s-apple-ios.tar.gz", 
+          "hash": "2e0a544236f7d576b53d8a74b44d79de330174d4bf766f65648fa8dda7650913"
+        }, 
+        "sparc64-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-sparc64-unknown-linux-gnu.tar.gz", 
+          "hash": "5d62105dffb1a15a52115ff83be3a8c8204e1da316c41f8a00e033cebb2ca41b"
+        }, 
+        "mipsel-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-mipsel-unknown-linux-gnu.tar.gz", 
+          "hash": "7edfe5c74e6775fe35348380f160b3a96e067faae1db91a9213c5cb9492a8243"
+        }, 
+        "wasm32-unknown-emscripten": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-wasm32-unknown-emscripten.tar.gz", 
+          "hash": "f39d7696a49c282acf1dc26140eaf86efcbdd1d3b1ccf526dd544cf8b95c0648"
+        }, 
+        "aarch64-linux-android": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-aarch64-linux-android.tar.gz", 
+          "hash": "5803782b769d89046fdd829adcb37657d9281b2eafe901660b2421c5a59780a8"
+        }, 
+        "mips64el-unknown-linux-gnuabi64": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-mips64el-unknown-linux-gnuabi64.tar.gz", 
+          "hash": "7220f8ee6e5af76a378a1a3a1bf68d75f4d0c8038fc49f416f37d59c89c03bdb"
+        }, 
+        "armv7-unknown-linux-gnueabihf": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-armv7-unknown-linux-gnueabihf.tar.gz", 
+          "hash": "c0ff6572b4f49d47c4dd838d7e604f9583e6b71c73112296515cc77ad9b72b5a"
+        }, 
+        "s390x-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-s390x-unknown-linux-gnu.tar.gz", 
+          "hash": "b7e6f6c2af5a28b704377febb974db5f4c93f16af7d28a339aee1c65354dea3e"
+        }, 
+        "mips-unknown-linux-musl": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-mips-unknown-linux-musl.tar.gz", 
+          "hash": "a4978c6f592c97d87b805703f5f38306ed77279eb19939ebcf285b884707dcdc"
+        }, 
+        "powerpc64-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-powerpc64-unknown-linux-gnu.tar.gz", 
+          "hash": "fbe1d1611ef914105c65612e1c573fa20b63473cd32c5ca8514a1f17bdd4be88"
+        }, 
+        "x86_64-pc-windows-msvc": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-x86_64-pc-windows-msvc.tar.gz", 
+          "hash": "4a46b8e879d0459dde5d09e417243f43873417eae156b8290a2e351f39cbad1f"
+        }, 
+        "powerpc64le-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-powerpc64le-unknown-linux-gnu.tar.gz", 
+          "hash": "b0efa6ed3bfb32f3d7a7e614ec1fc0fa4473563e877f1c325f37f0826eab7b1d"
+        }, 
+        "x86_64-unknown-freebsd": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-x86_64-unknown-freebsd.tar.gz", 
+          "hash": "806365e72dc34c672eec7ee7248cb743a90ed1b6b8d35e13a9d8f73b0ca05ff2"
+        }, 
+        "i686-unknown-linux-musl": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-i686-unknown-linux-musl.tar.gz", 
+          "hash": "f3a5142628d95384e67cc203e64ebf8862c14712c55c4e7e28286afc5517eaab"
+        }, 
+        "x86_64-apple-ios": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-x86_64-apple-ios.tar.gz", 
+          "hash": "88afe76a5ff6e68ee5a7c7e234b2f10680a4adf5969e7a858bc6c856928f5d6f"
+        }, 
+        "aarch64-apple-ios": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-aarch64-apple-ios.tar.gz", 
+          "hash": "d67431c5702b81c95e6567c22676178565168bafb66b41aa2a0f78edef17eeb6"
+        }, 
+        "mips-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-mips-unknown-linux-gnu.tar.gz", 
+          "hash": "515861c1c3a1f11d11ce308a60ecddd7647285f639810a15479ecd0bae075067"
+        }, 
+        "armv7-linux-androideabi": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-armv7-linux-androideabi.tar.gz", 
+          "hash": "78148b102a406dfbdadb520946f72237b6aadf70360f38ed015bdcd54f589ffe"
+        }, 
+        "aarch64-unknown-fuchsia": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-aarch64-unknown-fuchsia.tar.gz", 
+          "hash": "f40f6254b9ca741c10f6cea4b0b2214e8f9418c7f5f8b15c384633ee39cbaeaa"
+        }, 
+        "armv7-unknown-linux-musleabihf": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-armv7-unknown-linux-musleabihf.tar.gz", 
+          "hash": "a7c0d96171a193c0d66539af912ecd83f96e0c0eb8462032a30cb85d1e280342"
+        }, 
+        "x86_64-pc-windows-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-docs-1.17.0-x86_64-pc-windows-gnu.tar.gz", 
+          "hash": "21576add9a2dcf3d25887ee2cf0ae5a56b7847c7a15936b9a719ab541a3ca1de"
+        }
+      }
+    }, 
+    "rust-mingw": {
+      "version": "1.17.0 (56124baa9 2017-04-24)", 
+      "target": {
+        "x86_64-pc-windows-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-mingw-1.17.0-x86_64-pc-windows-gnu.tar.gz", 
+          "hash": "51c3b3a445988af261f7e077f962440bbbc0d86c1848c5ffbc64e7ee08df6c37"
+        }, 
+        "i686-pc-windows-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-mingw-1.17.0-i686-pc-windows-gnu.tar.gz", 
+          "hash": "144e870fd8d15818fe61893d11d47e206dd880a7ec7cc50e8016c94ddcc6b9b4"
+        }
+      }
+    }, 
+    "rust": {
+      "version": "1.17.0 (56124baa9 2017-04-24)", 
+      "target": {
+        "i686-apple-darwin": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-1.17.0-i686-apple-darwin.tar.gz", 
+          "hash": "308132b33d4002f95a725c2d31b975ff37905e3644894ed86e614b03ded70265", 
+          "extensions": [
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7s-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "asmjs-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i386-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "sparc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "wasm32-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-rumprun-netbsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "rust-src", 
+              "target": "*"
+            }
+          ], 
+          "components": [
+            {
+              "pkg": "rustc", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "cargo", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-docs", 
+              "target": "i686-apple-darwin"
+            }
+          ]
+        }, 
+        "aarch64-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-1.17.0-aarch64-unknown-linux-gnu.tar.gz", 
+          "hash": "b437bad2396b91649622340f2089da031d0d51a1c661915806f9e538f5666fc0", 
+          "extensions": [
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7s-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "asmjs-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i386-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "sparc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "wasm32-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-rumprun-netbsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "rust-src", 
+              "target": "*"
+            }
+          ], 
+          "components": [
+            {
+              "pkg": "rustc", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "cargo", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-docs", 
+              "target": "aarch64-unknown-linux-gnu"
+            }
+          ]
+        }, 
+        "x86_64-unknown-netbsd": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-1.17.0-x86_64-unknown-netbsd.tar.gz", 
+          "hash": "2403e523113d3bd2c152d933a0a960c4dfc920a40b642ee54a9d1d6395f9a8c8", 
+          "extensions": [
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7s-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "asmjs-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i386-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "sparc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "wasm32-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-rumprun-netbsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-src", 
+              "target": "*"
+            }
+          ], 
+          "components": [
+            {
+              "pkg": "rustc", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "cargo", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "rust-docs", 
+              "target": "x86_64-unknown-netbsd"
+            }
+          ]
+        }, 
+        "powerpc-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-1.17.0-powerpc-unknown-linux-gnu.tar.gz", 
+          "hash": "9cc60f145ce3be581c56b1b1570c801f2d435b3a829e491023ffe29288048e23", 
+          "extensions": [
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7s-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "asmjs-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i386-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "sparc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "wasm32-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-rumprun-netbsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "rust-src", 
+              "target": "*"
+            }
+          ], 
+          "components": [
+            {
+              "pkg": "rustc", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "cargo", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-docs", 
+              "target": "powerpc-unknown-linux-gnu"
+            }
+          ]
+        }, 
+        "mips64-unknown-linux-gnuabi64": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-1.17.0-mips64-unknown-linux-gnuabi64.tar.gz", 
+          "hash": "7a64e42d7380d3241f43d2530a592240e2b5863363fd9f80b2d4c34cadd340b1", 
+          "extensions": [
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7s-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "asmjs-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i386-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "sparc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "wasm32-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-rumprun-netbsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "rust-src", 
+              "target": "*"
+            }
+          ], 
+          "components": [
+            {
+              "pkg": "rustc", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "cargo", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-docs", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }
+          ]
+        }, 
+        "arm-unknown-linux-gnueabihf": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-1.17.0-arm-unknown-linux-gnueabihf.tar.gz", 
+          "hash": "0e8cda7eae1c60fc4f1106b194b2a595993667cd9850b322528d7f66ca3471ce", 
+          "extensions": [
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7s-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "asmjs-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i386-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "sparc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "wasm32-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-rumprun-netbsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "rust-src", 
+              "target": "*"
+            }
+          ], 
+          "components": [
+            {
+              "pkg": "rustc", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "cargo", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-docs", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }
+          ]
+        }, 
+        "x86_64-apple-darwin": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-1.17.0-x86_64-apple-darwin.tar.gz", 
+          "hash": "1689060c07ec727e9756f19c9373045668471ab56fd8f53e92701150bbe2032b", 
+          "extensions": [
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7s-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "asmjs-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i386-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "sparc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "wasm32-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-rumprun-netbsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "rust-src", 
+              "target": "*"
+            }
+          ], 
+          "components": [
+            {
+              "pkg": "rustc", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "cargo", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-docs", 
+              "target": "x86_64-apple-darwin"
+            }
+          ]
+        }, 
+        "i686-pc-windows-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-1.17.0-i686-pc-windows-gnu.tar.gz", 
+          "hash": "cc04c1b2409b31225de16d270939f0549b9e71d86f217d6ca9fab0c05cd4fd6e", 
+          "extensions": [
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7s-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "asmjs-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i386-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "sparc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "wasm32-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-rumprun-netbsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "rust-src", 
+              "target": "*"
+            }
+          ], 
+          "components": [
+            {
+              "pkg": "rustc", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "cargo", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-docs", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-mingw", 
+              "target": "i686-pc-windows-gnu"
+            }
+          ]
+        }, 
+        "arm-unknown-linux-gnueabi": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-1.17.0-arm-unknown-linux-gnueabi.tar.gz", 
+          "hash": "b3254c556b3f427724af1f3a112e5ad93cffd61561b0690f54199ca465901a8f", 
+          "extensions": [
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7s-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "asmjs-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i386-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "sparc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "wasm32-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-rumprun-netbsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "rust-src", 
+              "target": "*"
+            }
+          ], 
+          "components": [
+            {
+              "pkg": "rustc", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "cargo", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "rust-docs", 
+              "target": "arm-unknown-linux-gnueabi"
+            }
+          ]
+        }, 
+        "i686-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-1.17.0-i686-unknown-linux-gnu.tar.gz", 
+          "hash": "39d16ce0f618ba37ee1024b83e4822a2d38e6ba9f341ff2020d34df94c7a6beb", 
+          "extensions": [
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7s-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "asmjs-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i386-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "sparc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "wasm32-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-rumprun-netbsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "rust-src", 
+              "target": "*"
+            }
+          ], 
+          "components": [
+            {
+              "pkg": "rustc", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "cargo", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-docs", 
+              "target": "i686-unknown-linux-gnu"
+            }
+          ]
+        }, 
+        "i686-pc-windows-msvc": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-1.17.0-i686-pc-windows-msvc.tar.gz", 
+          "hash": "908cd1d4752cceb458ab4e1f3eba0d80428b812799126ee39717abc2454d2877", 
+          "extensions": [
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7s-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "asmjs-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i386-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "sparc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "wasm32-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-rumprun-netbsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "rust-src", 
+              "target": "*"
+            }
+          ], 
+          "components": [
+            {
+              "pkg": "rustc", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "cargo", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-docs", 
+              "target": "i686-pc-windows-msvc"
+            }
+          ]
+        }, 
+        "x86_64-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-1.17.0-x86_64-unknown-linux-gnu.tar.gz", 
+          "hash": "bbb0e249a7a3e8143b569706c7d2e7e5f51932c753b7fd26c58ccd2015b02c6b", 
+          "extensions": [
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7s-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "asmjs-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i386-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "sparc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "wasm32-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-rumprun-netbsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "rust-src", 
+              "target": "*"
+            }
+          ], 
+          "components": [
+            {
+              "pkg": "rustc", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "cargo", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-docs", 
+              "target": "x86_64-unknown-linux-gnu"
+            }
+          ]
+        }, 
+        "mipsel-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-1.17.0-mipsel-unknown-linux-gnu.tar.gz", 
+          "hash": "01f47c14f7b2f79b4dd676335f944b1d175e3ca055824b90e98cb0def0181f06", 
+          "extensions": [
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7s-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "asmjs-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i386-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "sparc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "wasm32-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-rumprun-netbsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "rust-src", 
+              "target": "*"
+            }
+          ], 
+          "components": [
+            {
+              "pkg": "rustc", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "cargo", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-docs", 
+              "target": "mipsel-unknown-linux-gnu"
+            }
+          ]
+        }, 
+        "x86_64-pc-windows-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-1.17.0-x86_64-pc-windows-gnu.tar.gz", 
+          "hash": "1a0a911fc73a9505daca926f50ff24e1ace961f0f2ebcc027014338773f7942d", 
+          "extensions": [
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7s-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "asmjs-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i386-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "sparc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "wasm32-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-rumprun-netbsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "rust-src", 
+              "target": "*"
+            }
+          ], 
+          "components": [
+            {
+              "pkg": "rustc", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "cargo", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-docs", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-mingw", 
+              "target": "x86_64-pc-windows-gnu"
+            }
+          ]
+        }, 
+        "mips64el-unknown-linux-gnuabi64": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-1.17.0-mips64el-unknown-linux-gnuabi64.tar.gz", 
+          "hash": "39c767f3404e6f000741c5ba156a80713cd60b51942dabe5a8ebd184d4866d0b", 
+          "extensions": [
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7s-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "asmjs-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i386-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "sparc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "wasm32-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-rumprun-netbsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "rust-src", 
+              "target": "*"
+            }
+          ], 
+          "components": [
+            {
+              "pkg": "rustc", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "cargo", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-docs", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }
+          ]
+        }, 
+        "armv7-unknown-linux-gnueabihf": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-1.17.0-armv7-unknown-linux-gnueabihf.tar.gz", 
+          "hash": "1423d62960db736c40de4f68875557e50479b5898831ef06886fb799c0adeced", 
+          "extensions": [
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7s-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "asmjs-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i386-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "sparc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "wasm32-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-rumprun-netbsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "rust-src", 
+              "target": "*"
+            }
+          ], 
+          "components": [
+            {
+              "pkg": "rustc", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "cargo", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-docs", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }
+          ]
+        }, 
+        "s390x-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-1.17.0-s390x-unknown-linux-gnu.tar.gz", 
+          "hash": "2d2d3afcb5e58482db0821334c0dd90fed8c12f3168f3c3703f4b9912458ae25", 
+          "extensions": [
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7s-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "asmjs-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i386-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "sparc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "wasm32-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-rumprun-netbsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "rust-src", 
+              "target": "*"
+            }
+          ], 
+          "components": [
+            {
+              "pkg": "rustc", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "cargo", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-docs", 
+              "target": "s390x-unknown-linux-gnu"
+            }
+          ]
+        }, 
+        "powerpc64-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-1.17.0-powerpc64-unknown-linux-gnu.tar.gz", 
+          "hash": "10f631f7d8815d2001b87ab528eddb921dff2d5d8e7fbe933257c210fac729a1", 
+          "extensions": [
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7s-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "asmjs-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i386-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "sparc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "wasm32-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-rumprun-netbsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "rust-src", 
+              "target": "*"
+            }
+          ], 
+          "components": [
+            {
+              "pkg": "rustc", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "cargo", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-docs", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }
+          ]
+        }, 
+        "x86_64-pc-windows-msvc": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-1.17.0-x86_64-pc-windows-msvc.tar.gz", 
+          "hash": "b41ebad98d2c075a4041b1fd6b20eaa87c778a7a428f4f6b4f058c4743914367", 
+          "extensions": [
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7s-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "asmjs-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i386-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "sparc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "wasm32-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-rumprun-netbsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "rust-src", 
+              "target": "*"
+            }
+          ], 
+          "components": [
+            {
+              "pkg": "rustc", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "cargo", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-docs", 
+              "target": "x86_64-pc-windows-msvc"
+            }
+          ]
+        }, 
+        "powerpc64le-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-1.17.0-powerpc64le-unknown-linux-gnu.tar.gz", 
+          "hash": "2dda1fff20aecd7b208babfd45f70c608978fe2594916d1448e42757bb7e759f", 
+          "extensions": [
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7s-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "asmjs-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i386-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "sparc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "wasm32-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-rumprun-netbsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "rust-src", 
+              "target": "*"
+            }
+          ], 
+          "components": [
+            {
+              "pkg": "rustc", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "cargo", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-docs", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }
+          ]
+        }, 
+        "x86_64-unknown-freebsd": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-1.17.0-x86_64-unknown-freebsd.tar.gz", 
+          "hash": "2d9d28e14a94507eee0245d2b387cd6e6e5765a6a2fc7896492d3d12d8cd7174", 
+          "extensions": [
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7s-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "asmjs-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i386-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "sparc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "wasm32-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-rumprun-netbsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "rust-src", 
+              "target": "*"
+            }
+          ], 
+          "components": [
+            {
+              "pkg": "rustc", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "cargo", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-docs", 
+              "target": "x86_64-unknown-freebsd"
+            }
+          ]
+        }, 
+        "mips-unknown-linux-gnu": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-1.17.0-mips-unknown-linux-gnu.tar.gz", 
+          "hash": "9675d6ce0d77e148cab3b3e327cb67a26e90e913220fa6b49e627920e369b3a4", 
+          "extensions": [
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "aarch64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "arm-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-linux-androideabi"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-gnueabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7-unknown-linux-musleabihf"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "armv7s-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "asmjs-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i386-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i586-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-linux-android"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "i686-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips64el-unknown-linux-gnuabi64"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mipsel-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "powerpc64le-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "s390x-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "sparc64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "wasm32-unknown-emscripten"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-darwin"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-apple-ios"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-pc-windows-msvc"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-rumprun-netbsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-freebsd"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-fuchsia"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-linux-musl"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "x86_64-unknown-netbsd"
+            }, 
+            {
+              "pkg": "rust-src", 
+              "target": "*"
+            }
+          ], 
+          "components": [
+            {
+              "pkg": "rustc", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-std", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "cargo", 
+              "target": "mips-unknown-linux-gnu"
+            }, 
+            {
+              "pkg": "rust-docs", 
+              "target": "mips-unknown-linux-gnu"
+            }
+          ]
+        }
+      }
+    }, 
+    "rust-src": {
+      "version": "1.17.0 (56124baa9 2017-04-24)", 
+      "target": {
+        "*": {
+          "available": true, 
+          "url": "https://static.rust-lang.org/dist/2017-04-27/rust-src-1.17.0.tar.gz", 
+          "hash": "330ab4ad23e0cb0148756f878f560d91474d6b4830d748fad6ef72ba777fa648"
+        }
+      }
+    }
+  }
+}

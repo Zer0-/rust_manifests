@@ -16,7 +16,9 @@ do
     else
         channel_url=$i
         echo $channel_url $channel_name
-        curl $channel_url -o manifests/$channel_name.toml
+        curl $channel_url \
+            | tee manifests/$channel_name.toml \
+            | python tomltojson.py > manifests/$channel_name.json
         skip=true
     fi
 done
